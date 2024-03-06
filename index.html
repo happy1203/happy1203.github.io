@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Happy's Software Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Happy Patel</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blogs</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+    <section id="hero">
+        <div class="hero-picture">
+            <img src="./images/profilePhoto.jpg" alt="Happy Patel Profile Portfolio"/>
+        </div>
+        <div class="hero-text">
+            <p class="hero-text-p1">Hello, I'm</p>
+            <h1 class="title">Happy Patel</h1>
+            <p class="hero-text-p2">Product Manager | Software Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onClick="window.open('./images/Happy_Patel_Resume.pdf')">View Resume</button>
+                <button class="btn btn-color-1" onClick="location.href='./#contact'">Contact Me</button>
+            </div>
+            <div id="socials-container">
+                <img src="./images/LinkedIn.png" alt="LinkedIn Profile" class="icon" onclick="window.open('https://www.linkedin.com/in/happy-patel1212/', '_blank');"/>
+                <img src="./images/GitHub.png" alt="GitHub Profile" class="icon" onclick="window.open('https://github.com/happy1203', '_blank');"/>
+                <img src="./images/Medium.png" alt="Medium Profile" class="icon" onclick="window.open('https://medium.com/@happy_12', '_blank');"/>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="hero-text-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="about-details-container">
+            <p>Hello! I'm <strong>Happy</strong>, a passionate developer based in the vibrant city of <strong>Toronto</strong>. With over <strong>2 years</strong> of experience in <strong>full-stack development</strong>, I thrive on creating innovative software solutions that leave a lasting impact.</p>
+            <p>Currently, I'm on a journey of continuous learning, pursuing a <strong>Bachelor of Computer Science</strong> and a <strong>Bachelor of Business Administration</strong> from the <strong>University of Waterloo</strong> and <strong>Wilfrid Laurier University</strong>. This unique blend of technical and business knowledge equips me to tackle complex challenges with confidence.</p>
+            <p>My expertise spans across various domains, including <strong>cloud computing</strong>, <strong>web development</strong>, <strong>cybersecurity</strong>, and <strong>machine learning</strong>. Whether it's building scalable web applications or implementing cutting-edge security measures, I'm always eager to dive deep into the latest technologies.</p>
+            <p>In my previous co-op positions at <strong>Magnet Forensics</strong> and <strong>SinaLite</strong>, I honed my skills as a full-stack developer while working on exciting projects that pushed the boundaries of innovation.</p>
+            <p>Let's connect and explore how we can leverage technology to bring your ideas to life!</p>
+          </div>
+        </div>
+    </section>
+    <section id="experience">
+        <p class="hero-text-p1">Learn More About</p>
+        <h1 class="title">My Experience</h1>
+        <div class="timeline">
+            <div class="timeline-empty"></div>
+            <div class="timeline-middle">
+                <div class="timeline-circle"></div>
+            </div>
+            <div class="timeline-component timeline-content">
+                <h3>Technical Blogger</h3>
+                <p>Medium</p>
+            </div>
+            <div class="timeline-component timeline-content">
+                  <h3>Full-Stack Developer</h3>
+                  <p>Magnet Forensics</p>
+            </div>
+            <div class="timeline-middle">
+                <div class="timeline-circle"></div>
+            </div>
+            <div class="timeline-empty"></div>
+            <div class="timeline-empty"></div>
+            <div class="timeline-middle">
+                <div class="timeline-circle"></div>
+            </div>
+            <div class=" timeline-component timeline-content">
+                <h3>Product Manager</h3>
+                <p>Noomi</p>
+            </div>
+            <div class="timeline-component timeline-content">
+                <h3>Software Tester</h3>
+                <p>Gao Tek</p>
+          </div>
+          <div class="timeline-middle">
+              <div class="timeline-circle"></div>
+          </div>
+          <div class="timeline-empty"></div>            
+        </div>
+        <div class="about-containers">
+            <div class="details-container">
+              <h1 class="about-details-container">Technical Skills</h1>
+              <p>Excel, Microsoft Suite, AWS, Jenkins, 
+                Git, Azure DevOps, Terraform, Linux, MySQL, 
+                Jira, Tableau, R Studio, C++, Python, Clojure, C#, 
+                HTML/CSS, React.js
+                </p>
+              <br/>
+            </div>
+            <div class="details-container">
+              <h1 class="about-details-container">Non-Technical Skills</h1>
+              <p>Competitive Market Research, 
+                Conducting Consumer Interviews, Digital 
+                Marketing, Seach Engine Marketing (SEM), 
+                Brand Management, Agile Software Development, 
+                Scrum Master, CI/CD Practices, Team 
+                Leadership
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <p class="hero-text-p1">Check Out My</p>
+        <h1 class="title">Projects</h1>
+        <div class="project-container">
+            <div class="project-box" id="project1">
+                <a href="project1-link">
+                    <img src="project1-image-url" alt="Project 1">
+                    <div class="description">Project 1 Description</div>
+                </a>
+            </div>
+            <div class="project-box" id="project2">
+                <a href="project2-link">
+                    <img src="project2-image-url" alt="Project 2">
+                    <div class="description">Project 2 Description</div>
+                </a>
+            </div>
+            <div class="project-box" id="project3">
+                <a href="project3-link">
+                    <img src="project3-image-url" alt="Project 3">
+                    <div class="description">Project 3 Description</div>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
